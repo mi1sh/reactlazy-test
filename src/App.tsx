@@ -1,6 +1,5 @@
 import { useState, Suspense, lazy, FC } from "react";
 import { Spin } from "antd";
-import "./App.css";
 
 const LazyComponent = lazy(() => import("./LazyComponent"));
 
